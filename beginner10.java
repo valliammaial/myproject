@@ -8,13 +8,13 @@ public static void main(String args[])
 int n;
 int count=0;
 
-Scanner s=new Scanner(system.in);
+Scanner s=new Scanner(System.in);
 n=s.nextInt();
 while(n!=0)
 {
 count++;
 n=n/10;
 }
-system.out.println(count);
+System.out.println(count);
 }
 }
