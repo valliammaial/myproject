@@ -23,7 +23,7 @@ if(l1==l2)
 			if((s11[i]==s11[j])&&(s22[i]==s22[j]))
 			{
 				flag=true;
-				System.out.println(s11[i]+" "+s22[j]);
+				
 			}
 		}
 	}
