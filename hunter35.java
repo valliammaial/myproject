@@ -11,9 +11,8 @@ str=s.next();
 int len=str.length();
 int half=len/2;
 String s1=str.substring(0,half);
-System.out.println(s1);
 String s2=str.substring(half);
-System.out.println(s2);
+
 if(s1.equals(s2))
 	System.out.println("double strings");
 else
