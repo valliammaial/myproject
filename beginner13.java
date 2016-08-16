@@ -12,7 +12,7 @@ n=s.nextInt();
 int count=0;
 for(int i=2;i<n;i++)
 {
-if(n%2==0)
+if(n%i==0)
 {
 System.out.println("The given no is not prime");
 count++;
