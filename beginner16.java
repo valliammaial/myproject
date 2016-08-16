@@ -28,7 +28,7 @@ continue;
 }
 if(!flag)
 {
-system.out.println(i);
+System.out.println(i);
 }
 }
 }
