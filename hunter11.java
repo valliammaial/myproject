@@ -9,7 +9,7 @@ String str;
 Scanner s=new Scanner(System.in);
 str=s.nextLine();
 String ss[]=str.split(" ");
-for(int i=ss.length;i>=0;i--)
-System.out.println(ss[i]+" ");
+for(int i=ss.length-1;i>=0;i--)
+System.out.print(ss[i]+" ");
 }
 }
