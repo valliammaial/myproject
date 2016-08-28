@@ -11,11 +11,13 @@ int count=0;
 char ch[]=str.toCharArray();
 for(int i=0;i<ch.length;i++)
 {
-if(ch[i]=='a' ||ch[i]=='e' || ch[i]=='i' ch[i]=='o' ||ch[i]=='u')
+if(String.valueOf(ch[i]).equalsIgnoreCase("a") ||String.valueOf(ch[i]).equalsIgnoreCase("e") || String.valueOf(ch[i]).equalsIgnoreCase("i")|| String.valueOf(ch[i]).equalsIgnoreCase("o")||String.valueOf(ch[i]).equalsIgnoreCase("u"))
 {
 count++;
 }
 }
 System.out.println(count);
+	}
+}
 }
 }
