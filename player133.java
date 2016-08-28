@@ -15,7 +15,7 @@ a[i]=s.next();
 String aa[]=new String[n];
 for(int i=0;i<n;i++)
 {
-aa[i]=a[i].toUpperCase();
+aa[i]=a[i].substring(0,3).toUpperCase();
 }
 Map<String,String> m=new LinkedHashMap<String,String>();
 for(int i=0;i<n;i++)
