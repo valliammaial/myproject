@@ -15,10 +15,10 @@ str[i]=s.next();
 }
 for(int i=0;i<n;i++)
 {
-char ch[]=str.toCharArray();
+char ch[]=str[i].toCharArray();
 for(int j=0;j<ch.length;j++)
 {
-if(Character.isDigit(ch[j])
+if(Character.isDigit(ch[j]))
 {
 String s1=String.valueOf(ch[j]);
 int k=Integer.parseInt(s1);
