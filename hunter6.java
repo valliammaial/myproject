@@ -20,9 +20,9 @@ m.put(a[i],(m.get(a[i])==null)?1:m.get(a[i])+1);
 List<Integer> list=new ArrayList<Integer>(m.keySet());
 for(int i:list)
 {
-if(m.get(a[i])>1)
+if(m.get(i)>1)
 {
-System.out.println(a[i]);
+System.out.println(i);
 break;
 }
 }
